@@ -1,3 +1,7 @@
+"""
+AI project. Using trained model to predict Ocular Diseases from images.
+Student: Nguyen Xuan Vinh - MITIU23008 - Class: MIT232
+"""
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -54,7 +58,6 @@ def load_model(model_path):
 
 # model path
 model_path = 'model/bt_resnet50_v2.pth'
-# model from Google Drive
 
 # load model
 model = load_model(model_path)
