@@ -8,7 +8,8 @@ from skimage import io, transform
 # UI
 st.title("AI Project")
 st.title("Ocular Diease Recognition")
-
+st.subheader("Student: Nguyen Xuan Vinh. ID: MITIU23008. Class: MIT232")
+st.divider()
 
 # class names
 classes = { 0: "Normal",
